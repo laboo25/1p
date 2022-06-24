@@ -1,0 +1,80 @@
+@font-face {
+    font-family: finance;
+    src: url(./Finance.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    width: 375px;
+    height: 667px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.container {
+    width: 375px;
+    height: 667px;
+    background: url(./imgs/border.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container .card {
+    width: 350px;
+    height: 642px;
+    background: url(./imgs/nudecollect.com\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.container .card .nc {
+    width: 130px;
+    height: 31px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    left: 0;
+    bottom: 32px;
+}
+.container .card .nc h3 {
+    color: white;
+    font-family: finance;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    margin: 10px 0;
+    margin-left: 13px;
+}
+@media only screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background: url(./imgs/border.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .container {
+        width: 100%;
+        height: 100vh;
+        /* background: url(./imgs/border.png);
+    background-size: cover;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+    .container .card {
+        width: 350px;
+        height: 642px;
+    }
+
+  }
